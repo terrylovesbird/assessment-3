@@ -1,0 +1,46 @@
+.container-fluid {
+    
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+p {
+   
+    font-size: 25px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 20px;
+    height: 200px;
+}
+
+.imgs {
+    height: 180px;
+    width: 180px;
+}
+
+.imgs-padding {
+    margin: 10px;
+}
+
+.price-color {
+    color: coral;
+}
+
+button {
+    background-color:cadetblue;
+}
+
+.shopping-cart {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 200px;
+}

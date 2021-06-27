@@ -1,0 +1,72 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Your link to your CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Your Javascript file goes here -->
+    <script src="app.js" async defer></script>
+    <title>office</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">[CodePlatoon Warehouse]</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kitchen.html">Kitchen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="bed-bath.html">Bed & Bath</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="office.html">Office</a>
+              </li>
+            </ul>
+          </div>
+          <a class="navbar-brand cart" href="cart.html">[Shopping Cart]</a>
+        </div>
+    </nav>
+    <h1>Office Products</h1>
+    <div class="content">
+        <div class="imgs-padding">
+            <img class="imgs" src="pics/officeChair.jpg">
+            <p>Office Chair</p>
+            <p class="price-color">($333.99)</p>
+            <button id="add-chair" onclick="addTask('Office Chair');">Add</button>
+        </div>
+
+        <div class="imgs-padding">
+            <img class="imgs" src="pics/officeTable.png">
+            <p>Office Table</p>
+            <p class="price-color">($339.99)</p>
+            <button id="add-office-table" onclick="addTask('Office Table');">Add</button>
+        </div>
+
+        <div class="imgs-padding">
+            <img class="imgs" src="pics/scissor.png">
+            <p>Scissor</p>
+            <p class="price-color">($6.99)</p>
+            <button id="add-scissor" onclick="addTask('Scissor');">Add</button>
+        </div>
+
+        <div class="imgs-padding">
+            <img class="imgs" src="pics/organizer.jpg">
+            <p>Paper Organizer</p>
+            <p class="price-color">($11.99)</p>
+            <button id="add-organizer" onclick="addTask('Paper Organizer');">Add</button>
+        </div>
+    
+</body>
+</html>
